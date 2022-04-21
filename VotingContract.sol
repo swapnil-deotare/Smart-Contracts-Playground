@@ -8,6 +8,7 @@ pragma solidity >=0.7.0 <0.9.0;
  */
 contract VotingContract {
    
+   
     struct Voter {
         uint weight; // weight is accumulated by delegation
         bool voted;  // if true, that person already voted
